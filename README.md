@@ -30,8 +30,8 @@ Valeurs retournées :
 
 ### Technical Testing Environment:
 
-Distribution: Ubuntu 20.04  
-Compiler & Version: **GCC _v15.2_**  
+! Distribution: Ubuntu 20.04
+Compiler & Version: [**GCC _v15.2_**](https://gcc.gnu.org/gcc-15/)  
 Compiler Command: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c`  
 Betty style: Compliant  
-Text Editor & Version: **VIM _v9.1.1825_**
+Text Editor & Version: [**VIM _v9.1.1825_**](https://www.vim.org/vim-9.1-released.php)
