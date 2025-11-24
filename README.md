@@ -27,3 +27,11 @@ Explication fonction printf :
 Requirements pour utiliser la fonction : 
 
 Valeurs retournées :
+
+### Technical Testing Environment:
+
+Distribution: Ubuntu 20.04  
+Compiler & Version: **GCC _v15.2_**  
+Compiler Command: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c`  
+Betty style: Compliant  
+Text Editor & Version: **VIM _v9.1.1825_**
