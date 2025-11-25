@@ -4,44 +4,45 @@ C - printf
 
 ## Table of Contents
 
-- [Description du projet](#description-du-projet)
-- [Commande compilation](#commande-compilation)
-- [Diagramme flowchart](#diagramme-flowchart)
-- [Exemples utilisation](#exemples-utilisation)
-- [Exemples tests](#exemples-tests)
-- [Man page](#man-page)
-- [Exemple éxécutions avec différents types](#exemple-éxécutions-avec-différents-types)
-- [Explication fonction printf](#explication-fonction-printf)
-- [Requirements pour utiliser la fonction](#requirements-pour-utiliser-la-fonction)
-- [Valeurs retournées](#valeurs-retournées)
+- [Project Description](#project-description)
+- [Command Used for Compiling](#command-used-for-compiling)
+- [Flowchart Diagram](#flowchart-diagram)
+- [Usage Examples](#usage-examples)
+- [Execution Variables](#execution-variables)
+- [Printf Explanation](#printf-explanation)
+- [Requirements to Run](#requirements-to-run)
+- [Return Values](#return-values)
+- [Man Page](#man-page)
 - [Technical Testing Environment](#technical-testing-environment)
 
 ---
 
-## Description du projet :
+## Project description :
 
-In this **project**, we need to create our own printf function. Printf is a C standard library function that formats text and writes it to standard output. The function accepts a format c-string argument and a variable number of value arguments that the function serializes per the format string.
+In this project, we need to create our own printf function. Printf is a C standard library function that formats text and writes it to standard output. The function accepts a format c-string argument and a variable number of value arguments that the function serializes per the format string.
 
-## Commande compilation :
+## Command used for compiling :
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 
 
-## Diagramme flowchart :
+## Flowchart diagram :
 
-## Exemples utilisation :
+<img width="615" height="815" alt="image" src="https://github.com/user-attachments/assets/5183e699-c686-4c19-86dd-1c32381a5f59" />
 
-## Exemples tests :
+## Usage examples :
+
+## Test examples :  <<<  a retirer peut etre?
 
 ## Man page :
 
-## Exemple éxécutions avec différents types :
+## Execution variables :
 
-## Explication fonction printf :
+## Printf explination :
 
-## Requirements pour utiliser la fonction :
+## Requirements to run :
 
-## Valeurs retournées :
+## Return values:
 
 ---
 
