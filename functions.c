@@ -8,7 +8,7 @@
  *
  */
 
-int print_c(va _list args)
+int print_c(va_list args)
 {
 	int c;
 
