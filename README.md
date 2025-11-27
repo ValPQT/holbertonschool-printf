@@ -3,7 +3,7 @@
 ![GCC v15.2](https://img.shields.io/badge/GCC-v15.2-blue)
 ![VIM v9.1.1825](https://img.shields.io/badge/VIM-v9.1.1825-green)
 ![ubuntu 20.04](https://img.shields.io/badge/ubuntu-20.04-orange)
-![Betty](https://img.shields.io/badge/Betty-active-yellow)
+![Betty](https://img.shields.io/badge/Style-Betty-yellow)
 
 
 
@@ -94,5 +94,5 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 - Distribution: [**Ubuntu _20.04_**](https://releases.ubuntu.com/20.04.6/?_gl=1*19ip6hm*_gcl_au*MTE4NTIyOTI0MS4xNzA3MTMxMDQx&_ga=2.149898549.2084151835.1707729318-1126754318.1683186906)
 * Compiler & Version: [**GCC _v15.2_**](https://gcc.gnu.org/gcc-15/)  
 + Compiler Command: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c`
-- Betty style: Compliant
+- Style: Betty
 * Text Editor & Version: [**VIM _v9.1.1825_**](https://www.vim.org/vim-9.1-released.php)
