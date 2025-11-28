@@ -1,0 +1,44 @@
+.TH man_3_printf 3 "November 2025" "Holberton School" "Function Manual"
+
+.SH NAME
+.B _printf
+- simple formatted output function
+
+.SH SYNOPSIS
+.B #include "main.h"
+.br
+.B int _printf(const char *format, ...);
+
+.SH DESCRIPTION
+.B _printf
+prints text to the standard output (usually the terminal) using a
+format string and a list of extra arguments.
+The format string can contain normal characters, which are printed as they are,
+and format specifiers that start with '%' and are replaced by values.
+
+.SH SUPPORTED FORMAT SPECIFIERS
+.B %c
+- Print a single character. The next argument is taken as an int and printed as a char.
+.br
+.B %s
+- Print a string. The next argument is taken as a char * and printed until the '\0' byte.
+If the pointer is NULL, the text "(null)" is printed.
+.br
+.B %%
+- Print a single '%' character. No extra argument is used.
+
+.SH RETURN VALUE
+On success,
+.B _printf
+returns the number of characters written to the output.
+If the format string is NULL or an error occurs, it returns -1.
+
+.SH NOTES
+This implementation is a project version of the standard C
+.B printf
+function. It only supports the format specifiers listed above, and does
+not handle flags, width, precision, or length modifiers.
+
+.SH AUTHORS
+Written by Alexander Durant and Valentin Pasquiet.
+
