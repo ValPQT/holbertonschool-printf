@@ -1,14 +1,12 @@
 #include "main.h"
 
-/*
- * search_func.c - searches for the functions
- * idkk
- * idk lorum ipsum
- * probably something goes here
- * filler text because betty sucks
+/**
+ * search_func - searches for the correct specifier
+ * @x : variable to the function
+ * Return: the function
  */
 
-int (*search_func(char x))(va_list)
+Int (*search_func(char x))(va_list)
 {
 
         int i = 0;
