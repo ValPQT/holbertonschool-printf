@@ -3,9 +3,9 @@
 #include <stdarg.h>
 
 /**
- *
- *
- *
+ * print_c - print a character
+ * @args: argument for character
+ * Return : number of characters
  */
 
 int print_c(va_list args)
@@ -17,9 +17,9 @@ int print_c(va_list args)
 }
 
 /**
- *
- *
- *
+ * print_s - print a string
+ * @args: argument for string
+ * Return : number of characters
  */
 
 int print_s(va_list args)
@@ -41,9 +41,9 @@ int print_s(va_list args)
 }
 
 /*
- *
- *
- *
+ * print_percent - pass the percent sign
+ * @args: argument for string
+ * Return: return the percent sign
  */
 
 int print_percent(va_list args)
