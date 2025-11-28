@@ -13,7 +13,6 @@
 - [Command Used for Compiling](#command-used-for-compiling)
 - [Flowchart Diagram](#flowchart-diagram)
 - [Usage Examples](#usage-examples)
-- [Execution Variables](#execution-variables)
 - [Printf Explanation](#printf-explanation)
 - [Requirements to Run](#requirements-to-run)
 - [Return Values](#return-values)
@@ -50,6 +49,23 @@ The flowchart shows the basic logic of `_printf`: read the format string, detect
 
 ```c
 int _printf(const char *format, ...);
+```
+
+**Example: Hello World**
+
+```c
+#include "main.h"
+
+int main(void)
+{
+    _printf("Hello, World!\n");
+    return (0);
+}
+```
+
+**Output:**
+```
+Hello, World!
 ```
 
 ---
