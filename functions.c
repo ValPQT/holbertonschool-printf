@@ -95,6 +95,12 @@ int print_d(va_list args)
 	return (count);
 }
 
+/**
+ * print_i - print an integer
+ * @args: argument for integer
+ * Return: the  decimal function
+ */
+
 int print_i(va_list args)
 {
 	return (print_d(args));
