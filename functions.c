@@ -40,7 +40,7 @@ int print_s(va_list args)
 	return (count);
 }
 
-/*
+/**
  * print_percent - pass the percent sign
  * @args: argument for string
  * Return: return the percent sign

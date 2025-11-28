@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-/*
+/**
  * _printf - The _printf function is the printf function that we recreated
  * on our own.
  *
