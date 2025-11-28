@@ -29,7 +29,7 @@ int _printf(const char *format, ...)
 				{
 					j = search_func(format[i + 1]);
 					if (j)
-						count +- j(args);
+						count += j(args);
 					else
 						count = _putchar(format[i]) + _putchar(format[i + 1]);
 					i += 2;

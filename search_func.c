@@ -20,8 +20,8 @@ int (*search_func(char x))(va_list)
         };
 
         while (arr[i].valid){
-           if (x == arr[i].valid[0]
-               return (arr[i].f)
+		if (x == arr[i].valid[0])
+			return (arr[i].f);
            i++;
         }
         return (NULL);
