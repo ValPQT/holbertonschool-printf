@@ -2,6 +2,15 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+/*
+ * _printf - The _printf function is the printf function that we recreated
+ * on our own.
+ *
+ *@format : string containing text and specifiers
+ *
+ * Return : Total number of characters displayed
+ */
+
 int _printf(const char *format, ...)
 {
 	int count = 0, i;
@@ -20,7 +29,7 @@ int _printf(const char *format, ...)
 		{
 			if (format[i] == '%')
 			{
-				if (format [i + 1] == '%')
+				if (format[i + 1] == '%')
 				{
 					count += _putchar(format[i]);
 					i += 2;
