@@ -6,7 +6,7 @@
  * Return: the function
  */
 
-Int (*search_func(char x))(va_list)
+int (*search_func(char x))(va_list)
 {
 
         int i = 0;
