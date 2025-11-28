@@ -6,6 +6,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+ * struct specifier - type of specifier in input
+ * @valid: the valid character 
+ * @f : the functions associated
+ */
+
 typedef struct specifier
 {
 	char *valid;
