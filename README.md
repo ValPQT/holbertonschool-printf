@@ -40,7 +40,7 @@ All `.c` files in the project are compiled together with the flags required by t
 
 ## Flowchart diagram :
 
-<img width="615" height="815" alt="image" src="https://github.com/user-attachments/assets/5183e699-c686-4c19-86dd-1c32381a5f59" />
+<img width="750" height="838" alt="image" src="https://github.com/user-attachments/assets/1df31934-cc0e-4714-9d01-81e44ffaeef3" />
 
 The flowchart shows the basic logic of `_printf`: read the format string, detect `%`, select the correct function for the specifier, print the argument, and update the character count.
 
@@ -62,16 +62,6 @@ A manual page is provided in the repository (`man_3_printf`).
 - **Synopsis:** `int _printf(const char *format, ...);`
 - **Description:** Prints output according to `format` and additional arguments
 - **Return value:** Number of characters printed, or `-1` on error
-
----
-
-## Execution variables :
-
-The main execution variables in `_printf` are:
-
--
--
--
 
 ---
 
