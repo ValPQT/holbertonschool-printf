@@ -60,11 +60,11 @@ int print_percent(va_list args)
 
 /**
  * print_d - print a decimal
- * @args: argument for decimal 
+ * @args: argument for decimal
  * Return: decimal counter
  */
 
-Int print_d(va_list args)
+int print_d(va_list args)
 {
 
 	unsigned int absolute, aux, countnum, count;
@@ -93,4 +93,9 @@ Int print_d(va_list args)
 		countnum /= 10;
 	}
 	return (count);
+}
+
+int print_i(va_list args)
+{
+	return (print_d(args));
 }
