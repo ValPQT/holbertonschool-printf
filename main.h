@@ -8,7 +8,7 @@
 
 /**
  * struct specifier - type of specifier in input
- * @valid: the valid character 
+ * @valid: the valid character
  * @f : the functions associated
  */
 
@@ -23,6 +23,7 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 int print_c(va_list args);
 int print_s(va_list args);
+int print_d(va_list args);
 int print_percent(va_list args);
 int (*search_func(char x))(va_list);
 
