@@ -39,7 +39,8 @@ All `.c` files in the project are compiled together with the flags required by t
 
 ## Flowchart diagram :
 
-<img width="750" height="838" alt="image" src="https://github.com/user-attachments/assets/1df31934-cc0e-4714-9d01-81e44ffaeef3" />
+<img width="748" height="721" alt="image" src="https://github.com/user-attachments/assets/c4e537df-2684-47cf-a635-7e28df8f62ae" />
+
 
 The flowchart shows the basic logic of `_printf`: read the format string, detect `%`, select the correct function for the specifier, print the argument, and update the character count.
 
